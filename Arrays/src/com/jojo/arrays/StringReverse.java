@@ -1,7 +1,6 @@
-package com.jojo.exercies;
+package com.jojo.arrays;
 
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class StringReverse {
 
