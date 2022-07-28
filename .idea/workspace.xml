@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a1d8dbe-e844-439c-9c34-df6324131e75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HashTables/src/com/jojo/hashTables/FirstRecurringCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedLists/src/com/jojo/lists/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedLists/src/com/jojo/lists/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/TestFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/MaxSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/MergeSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/MoveZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/MoveZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/StringReverseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/Arrays.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/Arrays.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/StringReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arrays/com/jojo/arrays/MoveZeros.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arrays/com/jojo/arrays/MoveZeros.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arrays/com/jojo/arrays/StringReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arrays/com/jojo/arrays/StringReverse.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -57,16 +57,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/LT-JJO/Music/Git-Repo/DataStructures",
+    "last_opened_file_path": "C:/Users/LT-JJO/Music/Git-Repo/DataStructures/lib/junit-jupiter-api-5.8.1.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LinkedList">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jojo.arrays" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StringReverseTest.reverseWhenNull">
     <configuration name="FirstRecurringCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jojo.hashTables.FirstRecurringCharacter" />
       <module name="HashTables" />
@@ -119,8 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jojo.arrays.TwoSum" />
+    <configuration name="StringReverseTest.reverseWhenNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
@@ -128,17 +143,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.jojo.arrays" />
+      <option name="MAIN_CLASS_NAME" value="com.jojo.arrays.StringReverseTest" />
+      <option name="METHOD_NAME" value="reverseWhenNull" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringReverseTest.reverseWhenNull" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.FirstRecurringCharacter" />
         <item itemvalue="Application.MoveZeros" />
         <item itemvalue="Application.MaxSubArray" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
