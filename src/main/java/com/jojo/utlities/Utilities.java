@@ -25,21 +25,21 @@ public class Utilities {
     public int[] getArrWR500() {
         int[] arrWR500 = new int[500];
         Random random = new Random();
-        for (int i = 0; i < 500; i++) {
+        for (int i = 0; i < 100; i++) {
             arrWR500[i] = random.nextInt(450);
         }
         return arrWR500;
     }
     public int[] getArrWOR500() {
-        int[] arrWOR500 = new int[500];
+        int[] arrWOR500 = new int[20];
         Random random = new Random();
-        for (int i = 0; i < 500; i++) {
-            arrWOR500[i] = random.nextInt(100000);
+        for (int i = 0; i < 20; i++) {
+            arrWOR500[i] = random.nextInt(100);
         }
         return arrWOR500;
     }
 
     public int[] getTestArr()   {
-        return new int[]{5, 4, 10, 1, 6, 2};
+        return new int[]{5, 4, 10, 1, 6, 2, 7, 3, 6};
     }
 }

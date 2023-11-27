@@ -2,28 +2,26 @@ package com.jojo.algotrithms.sort;
 
 import com.jojo.utlities.Utilities;
 
-import java.util.Arrays;
-
-public class InsertionSort {
+public class SelectionSort {
 
     public static void main(String[] args) {
+
         System.out.println("Kuttappiii.....");
         Utilities util = new Utilities();
 
         // Simple case...
         int[] arr10 = util.getTestArr();
-        Arrays.stream(arr10).boxed().forEach( i -> System.out.println(i + " "));
         long start = System.currentTimeMillis();
-        insertionSort(arr10);
+        selectionSort(arr10);
         System.out.println("Time taken: " + Math.subtractExact(System.currentTimeMillis(), start));
         for (int value : arr10)
             System.out.print(" " + value);
         System.out.println();
 
-        /*// Without repetitive elements
+        // Without repetitive elements
         int[] arrWOR500 = util.getArrWOR500();
         start = System.currentTimeMillis();
-        insertSort(arrWOR500);
+        selectionSort(arrWOR500);
         System.out.println("Time taken: " + Math.subtractExact(System.currentTimeMillis(), start));
         for (int k : arrWOR500)
             System.out.print(" " + k);
@@ -32,30 +30,37 @@ public class InsertionSort {
         // With repetitive elements
         int[] arrWR500 = util.getArrWR500();
         start = System.currentTimeMillis();
-        insertSort(arrWR500);
+        selectionSort(arrWR500);
         System.out.println("Time taken: " + Math.subtractExact(System.currentTimeMillis(), start));
         for (int j : arrWR500)
             System.out.print(" " + j);
-        System.out.println();*/
+        System.out.println();
     }
 
-    public static void insertionSort(int[] arr)  {
+    public static void selectionSort(int[] arr) {
 
-        int temp;
-        int swapIndex;
-        for(int i = 1; i < arr.length; i++) {
+        int minElement;
+        int minElementIndex;
 
-            temp = arr[i];
-            // swapIndex determines where the element in the unsorted subArray needs to be swapped...
-            swapIndex = i;
-            for(int j = i - 1; j >= 0; j--)  {
-                if(temp < arr[j])   {
-                    arr[j+1] = arr[j];
-                    swapIndex--;
-                } else
-                    break;
+        for(int i = 0; i < arr.length; i++) {
+
+            minElement = arr[i];
+            minElementIndex = i;
+            boolean isMinFound = false;
+            int temp;
+            for(int j = i + 1; j < arr.length; j++) {
+                if(minElement > arr[j]) {
+                    minElement = arr[j];
+                    minElementIndex = j;
+                    isMinFound = true;
+                }
             }
-            arr[swapIndex] = temp;
+
+            if(isMinFound)  {
+                temp = arr[i];
+                arr[i] = minElement;
+                arr[minElementIndex] = temp;
+            }
         }
     }
 }

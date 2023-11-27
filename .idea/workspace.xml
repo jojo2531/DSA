@@ -4,15 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a1d8dbe-e844-439c-9c34-df6324131e75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/StringReverseTest.java" afterDir="false" />
+    <list default="true" id="9a1d8dbe-e844-439c-9c34-df6324131e75" name="Changes" comment="Java code for Bubble Sort and Insertion Sort...">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/FindIndexFromRotatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/SortToATreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/BinaryHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/BinaryTreeTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/CountNumberOfBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/MinValueInRotatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/MissingNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/OddOrEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/PowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/SearchInRotatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/UniqueElementFromDuplicatesInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/BuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/FirstAndLastPositionOfElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/MedianOfTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/MiddleFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/TopTwoScores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/hashmap/SortHashMapByValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/list/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/list/RemoveDuplicatesFromList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/tree/CheckIfBinaryTreeIsBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/tree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/dataStructures/binaryTress/BinaryTreeTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/dataStructures/binaryTress/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/dataStructures/binaryTress/udemy/BinaryNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/dataStructures/binaryTress/udemy/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/dataStructures/binaryTress/udemy/BinaryTreeLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/dataStructures/binaryTress/udemy/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/dataStructures/linkedLists/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/leetCode/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/leetCode/CharCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/leetCode/HouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/leetCode/IntegerBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/leetCode/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/leetCode/LengthOfLongestSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/leetCode/MajorityElement2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/leetCode/NumberFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/leetCode/UniqueElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/leetCode/tt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/practice/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/practice/aa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/practice/array/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/practice/array/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/practice/qq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/practice/streams/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/practice/streams/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/practice/streams/EmployeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/practice/streams/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojo/practice/string/DuplicateChars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/Arrays.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/Arrays.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/src/com/jojo/arrays/StringReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arrays/com/jojo/arrays/MoveZeros.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arrays/com/jojo/arrays/MoveZeros.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arrays/com/jojo/arrays/StringReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arrays/com/jojo/arrays/StringReverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojo/dataStructures/linkedLists/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojo/dataStructures/linkedLists/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojo/utlities/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojo/utlities/Utilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +99,38 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jojo2531&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="17765a4b-4d83-4b21-be5f-1f6ed9cf2594" />
+        <option name="url" value="https://github.com/jojo2531/DataStructures.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2CNgPOnVoYSE0IHOni4MVrHP80T" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -63,32 +144,49 @@
     "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
+    "go.import.settings.migrated": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/LT-JJO/Music/Git-Repo/DataStructures/lib/junit-jupiter-api-5.8.1.jar",
+    "last_opened_file_path": "C:/Users/jjo/Music/Code/InterviewPreparations",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "afa61b3ce8a56cabf098f4fbf44d7bcc",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jjo\Music\Code\DataStructures\src\main\java\com\jojo\algotrithms\sort\udemy" />
+      <recent name="C:\Users\jjo\Music\Code\DataStructures\src\main\java\com\jojo\dataStructures\binaryTress\udemy" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.jojo.arrays" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jojo.algotrithms.test.list" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringReverseTest.reverseWhenNull">
-    <configuration name="FirstRecurringCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jojo.hashTables.FirstRecurringCharacter" />
-      <module name="HashTables" />
+  <component name="RunManager" selected="Application.com.jojo.practice.array.Main">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jojo.practice.streams.App" />
+      <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jojo.hashTables.*" />
+          <option name="PATTERN" value="com.jojo.practice.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jojo.lists.LinkedList" />
-      <module name="LinkedLists" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jojo.practice.Main" />
+      <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jojo.lists.*" />
+          <option name="PATTERN" value="com.jojo.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jojo.arrays.MaxSubArray" />
-      <module name="Arrays" />
+    <configuration name="OddOrEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jojo.algotrithms.test.OddOrEven" />
+      <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jojo.arrays.*" />
+          <option name="PATTERN" value="com.jojo.algotrithms.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jojo.arrays.MoveZeros" />
-      <module name="Arrays" />
+    <configuration name="aa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jojo.practice.aa" />
+      <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jojo.arrays.*" />
+          <option name="PATTERN" value="com.jojo.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,29 +233,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverseTest.reverseWhenNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Arrays" />
+    <configuration name="com.jojo.practice.array.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jojo.practice.array.Main" />
+      <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jojo.arrays.*" />
+          <option name="PATTERN" value="com.jojo.practice.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jojo.arrays" />
-      <option name="MAIN_CLASS_NAME" value="com.jojo.arrays.StringReverseTest" />
-      <option name="METHOD_NAME" value="reverseWhenNull" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringReverseTest.reverseWhenNull" />
-        <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.FirstRecurringCharacter" />
-        <item itemvalue="Application.MoveZeros" />
-        <item itemvalue="Application.MaxSubArray" />
+        <item itemvalue="Application.com.jojo.practice.array.Main" />
+        <item itemvalue="Application.OddOrEven" />
+        <item itemvalue="Application.aa" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -169,8 +264,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658648432999</updated>
+      <workItem from="1695438318520" duration="9566000" />
+      <workItem from="1695622876483" duration="27913000" />
+      <workItem from="1695877859263" duration="1980000" />
+      <workItem from="1696508065002" duration="7178000" />
+      <workItem from="1696560937856" duration="37290000" />
+      <workItem from="1696919010490" duration="7042000" />
+      <workItem from="1697004824851" duration="11523000" />
+      <workItem from="1697200134483" duration="1247000" />
+      <workItem from="1697598835494" duration="27978000" />
+      <workItem from="1697953743825" duration="8396000" />
+      <workItem from="1698059758963" duration="16591000" />
+      <workItem from="1698297309377" duration="1180000" />
+      <workItem from="1698307439798" duration="24089000" />
+      <workItem from="1699435821459" duration="1254000" />
+      <workItem from="1700459561740" duration="604000" />
     </task>
+    <task id="LOCAL-00001" summary="Java code for Binary Search...">
+      <option name="closed" value="true" />
+      <created>1695620727945</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695620727945</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Java code for Bubble Sort and Insertion Sort...">
+      <option name="closed" value="true" />
+      <created>1695635427760</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695635427760</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -182,6 +312,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java code for Binary Search..." />
+    <MESSAGE value="Java code for Bubble Sort and Insertion Sort..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Java code for Bubble Sort and Insertion Sort..." />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -211,7 +350,397 @@
           <line>23</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/BinarySearch.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/BinarySearch.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/BinarySearch.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/BinarySearch.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/BinarySearch.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/BinarySearch.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/BinarySearch.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/BubbleSort.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/MajorityElement2.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/MajorityElement2.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/AddTwoNumbers.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/AddTwoNumbers.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/AddTwoNumbers.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/LengthOfLongestSubString.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/LengthOfLongestSubString.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/LengthOfLongestSubString.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/LengthOfLongestSubString.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/LengthOfLongestSubString.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/LengthOfLongestSubString.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/LengthOfLongestSubString.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/NumberFactor.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/NumberFactor.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/NumberFactor.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/NumberFactor.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/NumberFactor.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/NumberFactor.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/NumberFactor.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/NumberFactor.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/NumberFactor.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/SortToATreeNode.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/UniqueElementInArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/leetCode/UniqueElementInArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/udemy/MergeSort.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/sort/MergeSort.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/FindIndexFromRotatedArray.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/FindIndexFromRotatedArray.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/FindIndexFromRotatedArray.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/FindIndexFromRotatedArray.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/FindIndexFromRotatedArray.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/FindIndexFromRotatedArray.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/FindIndexFromRotatedArray.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/search/FindIndexFromRotatedArray.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/practice/qq.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/practice/qq.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/practice/qq.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/practice/qq.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/practice/qq.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/practice/qq.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/MissingNumberInArray.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/MissingNumberInArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/TopTwoScores.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/TopTwoScores.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/TopTwoScores.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/MissingNumber.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/BuyAndSellStock.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/BuyAndSellStock.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/BuyAndSellStock.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/FirstAndLastPositionOfElement.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/MedianOfTwoSortedArrays.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/MedianOfTwoSortedArrays.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/FirstAndLastPositionOfElement.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/FirstAndLastPositionOfElement.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/algotrithms/test/array/FirstAndLastPositionOfElement.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jojo/practice/aa.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataStructures$TopTwoScores.ic" NAME="TopTwoScores Coverage Results" MODIFIED="1698060474695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jojo.algotrithms.test.array.*</FILTER>
+    </SUITE>
   </component>
 </project>
