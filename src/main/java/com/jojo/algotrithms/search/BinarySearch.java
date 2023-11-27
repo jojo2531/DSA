@@ -6,8 +6,8 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         System.out.println("Kuttapi....");
-        int[] arr = new int[]{3,45,23,4563,33,5,2,6,2342,678,435,24,542,54,6224,346463,224,7865,444,32456,96,242,8,45};
-        int findElement = 33;
+        int[] arr = new int[]{3,45,23,4563,33,5,2,6,2342,678,435,24,34,2342,245,232,55,22,77,45,787,3434,7878,334,542,54,6224,346463,224,7865,444,32456,96,242,8,45};
+        int findElement = 224;
         Arrays.sort(arr);
         for(int i = 0; i < arr.length; i++)
             System.out.println(i + " -> " + arr[i]);
@@ -22,7 +22,7 @@ public class BinarySearch {
 
         int midIndex = Math.floorDiv(arr.length - 1, 2);
         if(arr[midIndex] == element)
-            System.out.println(midIndex);
+            return midIndex;
 
         if(arr[midIndex] > element)
             return findElement(arr, 0, --midIndex, element);
